@@ -14,10 +14,9 @@ def create_project_hash
   #   description: kickstarter.css("p.bbcard_blurb").text
   #   location: kickstarter.css(".project-meta .location-name").text
   #   percent_funded: project.css("ul.project-stats li.first.funded strong").text.gsub("%", "").to_i
-  # 
+  #
   # end
-  binding.pry
+  # binding.pry
 end
 
 create_project_hash
-
