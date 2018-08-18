@@ -11,6 +11,7 @@ def create_project_hash
 
   page_section.each do |project|
       projects[project]={}
+    end
             # title=project.css(".project .bbcard_name a").text
             # projects["#{title}":]={
             #   image_link: project.css(".project-thumbnail a img").attribute("src").value
@@ -18,7 +19,7 @@ def create_project_hash
             #   location: project.css(".project-meta .location-name").text
             #   percent_funded: project.css("ul.project-stats li.first.funded strong").text.gsub("%", "").to_i
 
-  end
+  
   projects
  end
 
